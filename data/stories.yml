@@ -1,0 +1,81 @@
+# version: "3.1"
+
+# stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: ask for symptoms directly
+  steps:
+  - intent: ask_symptoms
+    entities:
+    - disease: "dengue"
+  - action: action_tell_symptoms
+
+- story: ask for prevention directly
+  steps:
+  - intent: ask_prevention
+    entities:
+    - disease: "typhoid"
+  - action: action_tell_prevention
+
+- story: ask for vaccine info
+  steps:
+  - intent: ask_vaccine_info
+    entities:
+    - vaccine: "bcg"
+  - action: action_tell_vaccine_info
+
+# This is the new story that teaches the bot to remember context.
+- story: symptoms then prevention followup
+  steps:
+  - intent: ask_symptoms
+    entities:
+    - disease: "malaria"
+  - action: action_tell_symptoms       # The bot answers and sets the "disease" slot to "malaria"
+  - intent: ask_prevention              # The user asks a follow-up like "any prevention of that?"
+  - action: action_tell_prevention      # The bot uses the value from the "disease" slot to answer correctly
+

@@ -1,0 +1,339 @@
+{
+  "diseases": [
+    {
+      "name": "malaria",
+      "symptoms": [
+        "High fever",
+        "Shaking chills",
+        "Headache",
+        "Muscle aches",
+        "Fatigue",
+        "Nausea and vomiting",
+        "Recurrent fevers that come and go in cycles"
+      ],
+      "prevention": [
+        "Use mosquito nets while sleeping.",
+        "Apply mosquito repellent to exposed skin.",
+        "Wear long-sleeved clothing, especially at dusk and dawn.",
+        "Eliminate standing water around your home where mosquitoes breed."
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "dengue",
+      "symptoms": [
+        "High fever (104°F or 40°C)",
+        "Severe headache",
+        "Pain behind the eyes",
+        "Severe joint and muscle pain, like bones are breaking",
+        "Rash",
+        "Mild bleeding (such as nose bleed, bleeding gums, or easy bruising)"
+      ],
+      "prevention": [
+        "Prevent mosquito bites by using repellent and wearing protective clothing.",
+        "Keep surroundings clean and free of stagnant water to prevent mosquito breeding.",
+        "Use mosquito nets and window screens."
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "typhoid",
+      "symptoms": [
+        "Sustained high fever that rises gradually",
+        "Weakness",
+        "Stomach pain",
+        "Headache",
+        "Loss of appetite",
+        "Sometimes a rash of flat, rose-colored spots",
+        "Constipation or diarrhea sometimes"
+      ],
+      "prevention": [
+        "Ensure drinking water is safe (boiled or purified).",
+        "Wash hands thoroughly with soap, especially after using the toilet and before eating.",
+        "Avoid eating raw or undercooked food.",
+        "Get vaccinated against typhoid fever."
+      ],
+      "vaccination_priority": 1
+    },
+    {
+      "name": "covid-19",
+      "symptoms": [
+        "Fever or chills",
+        "Cough",
+        "Shortness of breath or difficulty breathing",
+        "Fatigue",
+        "Muscle or body aches",
+        "Loss of taste or smell",
+        "Sore throat"
+      ],
+      "prevention": [
+        "Get vaccinated and stay up to date with booster shots.",
+        "Wash hands frequently with soap and water or use an alcohol-based hand sanitizer.",
+        "Wear a well-fitting mask in crowded areas.",
+        "Maintain physical distance from others.",
+        "Ensure good ventilation in indoor spaces."
+      ],
+      "vaccination_priority": 1
+    },
+    {
+      "name": "heart attack",
+      "symptoms": [
+        "A heavy or squeezing pain in the chest, especially when walking or climbing stairs",
+        "Pain spreads to my left arm, neck, or jaw",
+        "Shortness of breath even with little effort",
+        "Unusually tired and dizzy"
+      ],
+      "prevention": [
+        "Rest and avoid exertion",
+        "Eat less oily/salty food",
+        "Quit smoking/alcohol, maintain healthy weight"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "stroke",
+      "symptoms": [
+        "Face suddenly drooped on one side",
+        "Can’t lift one arm properly",
+        "Speech suddenly became slurred or couldn’t talk",
+        "Sudden loss of vision or balance"
+      ],
+      "prevention": [
+        "Control blood pressure, diabetes",
+        "Avoid smoking, alcohol",
+        "Eat low-salt diet"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "copd",
+      "symptoms": [
+        "Cough every day and bring up thick phlegm",
+        "Feel breathless while climbing stairs or walking",
+        "Hear a whistling or wheezing sound when breathing",
+        "Often get chest infections"
+      ],
+      "prevention": [
+        "Stop smoking",
+        "Use masks in dusty/polluted areas",
+        "Practice deep breathing exercises"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "pneumonia",
+      "symptoms": [
+        "Fever with chills and body pain",
+        "Cough brings up yellow or green phlegm",
+        "Feel chest pain when breathing or coughing",
+        "Get tired easily and feel weak"
+      ],
+      "prevention": [
+        "Get vaccinated (pneumococcal vaccine).",
+        "Drink warm fluids, rest, steam inhalation.",
+        "Wash hands regularly."
+      ],
+      "vaccination_priority": 2
+    },
+    {
+      "name": "diabetes",
+      "symptoms": [
+        "Feel thirsty all the time and pass urine very frequently",
+        "Feel hungry often but still lose weight",
+        "Vision gets blurry sometimes",
+        "Small wounds take longer to heal"
+      ],
+      "prevention": [
+        "Avoid sugary foods/drinks",
+        "Walk/exercise daily",
+        "Eat high-fiber diet (vegetables, whole grains)"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "alzheimer's",
+      "symptoms": [
+        "Forget names and recent events often",
+        "Get confused about places or dates",
+        "Lose track of conversations or repeat the same questions",
+        "Struggle with daily activities like cooking or handling money"
+      ],
+      "prevention": [
+        "Do puzzles, read, and keep brain active",
+        "Exercise regularly, eat brain-healthy foods (fish, nuts)"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "jaundice",
+      "symptoms": [
+        "Eyes and skin are yellowish",
+        "Feel very tired and my urine is dark",
+        "Have mild fever, nausea, and loss of appetite"
+      ],
+      "prevention": [
+        "Get vaccinated for Hepatitis A and B.",
+        "Drink plenty of clean water.",
+        "Eat light, home-cooked food.",
+        "Avoid alcohol."
+      ],
+      "vaccination_priority": 2
+    },
+    {
+      "name": "chikungunya",
+      "symptoms": [
+        "Sudden fever with severe joint pain, especially in fingers, wrists, knees",
+        "Feel tired and sometimes have rashes on skin"
+      ],
+      "prevention": [
+        "Rest, hydrate well",
+        "Take paracetamol for pain/fever",
+        "Protect against mosquito bites"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "asthma",
+      "symptoms": [
+        "Feel tightness in my chest",
+        "Get wheezing or whistling sounds when I breathe",
+        "Cough a lot, especially at night or early morning",
+        "Shortness of breath during exercise or exposure to dust/pollen"
+      ],
+      "prevention": [
+        "Avoid triggers like dust, smoke, and pollution",
+        "Use prescribed inhalers as needed",
+        "Practice breathing exercises"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "arthritis",
+      "symptoms": [
+        "Joints feel stiff and painful, especially in the morning",
+        "Swelling around my knees, hands, or wrists",
+        "It’s harder to move joints or walk long distances"
+      ],
+      "prevention": [
+        "Gentle exercise",
+        "warm compresses",
+        "maintain healthy weight",
+        "Avoid overloading joints"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "tuberculosis",
+      "symptoms": [
+        "A cough that lasts for more than 2 weeks",
+        "Coughing up blood or mucus",
+        "Sweating at night and having a fever",
+        "Losing weight without trying"
+      ],
+      "prevention": [
+        "Get the BCG vaccination, especially for children.",
+        "Cover your mouth when coughing or sneezing.",
+        "Ensure good ventilation and sunlight in rooms."
+      ],
+      "vaccination_priority": 1
+    },
+    {
+      "name": "hypertension",
+      "symptoms": [
+        "Often get headaches, especially at the back of the head",
+        "Feeling dizzy or having blurry vision sometimes",
+        "Feeling your heart pounding in your chest",
+        "Chest discomfort"
+      ],
+      "prevention": [
+        "Reduce salt intake",
+        "Walk or exercise daily",
+        "Manage stress through activities like yoga or meditation",
+        "Avoid smoking and alcohol"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "kidney disease",
+      "symptoms": [
+        "Feeling tired all the time",
+        "Swelling in feet, hands, or face",
+        "Feeling itchy and sometimes urinating less",
+        "Foamy urine"
+      ],
+      "prevention": [
+        "Reduce salt in your diet",
+        "Stay hydrated by drinking enough water",
+        "Avoid overusing painkillers",
+        "Keep blood pressure and blood sugar under control"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "gastroenteritis",
+      "symptoms": [
+        "Diarrhea with stomach cramps",
+        "Feeling nauseous or vomiting",
+        "Feeling weak and thirsty",
+        "Sometimes a low-grade fever"
+      ],
+      "prevention": [
+        "Get the Rotavirus vaccine for infants.",
+        "Drink Oral Rehydration Solution (ORS) to stay hydrated.",
+        "Avoid street food and contaminated water.",
+        "Wash hands frequently."
+      ],
+      "vaccination_priority": 2
+    },
+    {
+      "name": "common cold",
+      "symptoms": [
+        "Runny or stuffy nose",
+        "Sore or scratchy throat",
+        "Cough and sneezing",
+        "Slight body aches or a mild headache"
+      ],
+      "prevention": [
+        "Wash your hands often with soap and water",
+        "Avoid touching your eyes, nose, or mouth with unwashed hands",
+        "Cover your cough and sneezes",
+        "Get plenty of rest and eat well"
+      ],
+      "vaccination_priority": 4
+    },
+    {
+      "name": "conjunctivitis",
+      "symptoms": [
+        "Redness in one or both eyes",
+        "Itchiness and a gritty feeling in the eye",
+        "A discharge that forms a crust during the night",
+        "Tearing and sensitivity to light"
+      ],
+      "prevention": [
+        "Don't touch your eyes with your hands",
+        "Wash your hands often",
+        "Use a clean towel and washcloth daily",
+        "Don't share eye cosmetics or personal eye care items"
+      ],
+      "vaccination_priority": 4
+    }
+  ],
+  "vaccinations": [
+    {
+      "name": "bcg",
+      "schedule": "At birth",
+      "protects_against": "Tuberculosis (TB)"
+    },
+    {
+      "name": "opv",
+      "schedule": "At birth (0 dose), then at 6, 10, and 14 weeks",
+      "protects_against": "Poliomyelitis (Polio)"
+    },
+    {
+      "name": "measles",
+      "schedule": "First dose at 9-12 months, second dose at 16-24 months",
+      "protects_against": "Measles"
+    }
+  ]
+}
+
